@@ -1,0 +1,60 @@
+{
+	"geode": "3.4.0",
+	"gd": {
+		"win": "2.206",
+		"mac": "2.206",
+		"android": "2.206"
+	},
+	"id": "raydeeux.nomodifierblocks",
+	"name": "NoModifierBlocks",
+	"version": "v1.0.0",
+	"developer": "RayDeeUx",
+	"description": "Remove modifier blocks from levels.",
+	"repository": "https://github.com/RayDeeUx/NoModifierBlocks",
+	"settings": {
+		"enabled": {
+			"name": "Enabled",
+			"description": "Toggles the mod.",
+			"type": "bool",
+			"default": true
+		},
+		"s": {
+			"name": "No S blocks",
+			"type": "bool",
+			"default": false
+		},
+		"h": {
+			"name": "No H Blocks",
+			"type": "bool",
+			"default": false
+		},
+		"j": {
+			"name": "No J Blocks",
+			"type": "bool",
+			"default": false
+		},
+		"f": {
+			"name": "No F Blocks",
+			"type": "bool",
+			"default": false
+		},
+		"d": {
+			"name": "No D Blocks",
+			"type": "bool",
+			"default": false
+		}
+	},
+	"resources": {
+		"files": [
+			"resources/*.png"
+		]
+	},
+	"issues": {
+		"url": "https://discord.com/channels/911701438269386882/1205523212444639292",
+		"info": "Ping me <cl>(@erymanthus)</c> in the Geode SDK Discord server's <cl>#help</c> channel if you need help. <cr>DMs are NOT accepted.</c>"
+	},
+	"links": {
+		"community": "https://discord.gg/WqZBYdBWZW",
+		"homepage": "https://discord.com/channels/822510988409831486/1206371881222144020"
+	}
+}
